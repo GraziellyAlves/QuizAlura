@@ -9,11 +9,16 @@ import QuizLogo from '../src/components/QuizLogo';
 import Footer from '../src/components/Footer'
 import GitHubCorner from '../src/components/GitHubCorner'
 import QuizBackground from '../src/components/QuizBackground'
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
+
+
+// explicação do propTypes
+// https://medium.com/@fannyvieira  PropTypes no React
 
 
 // const BackgroundImage = styled.div`
-
 //   background-image: url(${db.bg});
 //   flex: 1;
 //   background-size: cover;
@@ -54,15 +59,15 @@ export default function Home() {
               console.log('Fazendo uma submissão por meio do react');
             }}
             >
-            <input placeholder="Diz seu nome"
-              name="nomeDoUsuario"
+             <Input
+                name="nomeDoUsuario"
                 onChange={(infosDoEvento) => setName(infosDoEvento.target.value)}
                 placeholder="Diz ai seu nome"
                 value={name}
-            />
-            <button type="submit" disabled={name.length === 0}>
-              Jogar{name}
-            </button>
+              />
+              <Button type="submit" disabled={name.length === 0}>
+                {`Jogar ${name}`}
+              </Button>
             </form>
           </Widget.Content>
         </Widget>
