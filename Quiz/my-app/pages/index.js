@@ -1,14 +1,16 @@
-import Head from 'next/head';
 import React from 'react';
-import { useRouter} from 'next/router'
+import styled from 'styled-components';
+import Head from 'next/head';
+import { motion } from 'framer-motion';
+import { useRouter } from 'next/router';
 
-import styled from 'styled-components'
-import db from '../db.json'
-import Widget from '../src/components/Widget'
+import db from '../db.json';
+import Widget from '../src/components/Widget';
+import Link from '../src/components/Link';
 import QuizLogo from '../src/components/QuizLogo';
-import Footer from '../src/components/Footer'
-import GitHubCorner from '../src/components/GitHubCorner'
-import QuizBackground from '../src/components/QuizBackground'
+import QuizBackground from '../src/components/QuizBackground';
+import Footer from '../src/components/Footer';
+import GitHubCorner from '../src/components/GitHubCorner';
 import Input from '../src/components/Input';
 import Button from '../src/components/Button';
 
@@ -73,8 +75,8 @@ export default function Home() {
         </Widget>
         <Widget>
           <Widget.Content>
-              <h1>Alguma coisa aqui!</h1>              
-              <p>Alguma coisa aqui! Show! </p>
+              <h1>Este é um quiz feito para testar seus conhecimentos em League of Legends.</h1>              
+              
             </Widget.Content>
         </Widget>
         <Footer/>

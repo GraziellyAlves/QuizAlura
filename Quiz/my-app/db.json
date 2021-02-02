@@ -3,11 +3,11 @@
   
     
     "title": "Quiz CSS da Alura",
-    "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+    "description": "Teste os seus conhecimentos sobre a Caitlyn",
     "questions": [
       {
         "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
+        "title": "pergunta 1",
         "description": "Essa é pra aquecer",
         "answer": 2,
         "alternatives": [
@@ -19,7 +19,7 @@
       },
       {
         "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
+        "title": "pergunta 2",
         "description": "Faz tempo em haha",
         "answer": 0,
         "alternatives": [
